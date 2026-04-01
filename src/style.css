@@ -6,6 +6,24 @@ body {
   background-attachment: fixed;
   font-family: Arial, sans-serif;
 }
+@media (max-width: 600px) {
+  #container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .examples {
+    font-size: 12px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+  }
+}
 #container {
   font-family: Arial, sans-serif;
   margin: 0 auto;
@@ -23,26 +41,10 @@ h1,h2{
     font: size 30px;
     line-height: 1.2px;
 }
-#search-input {
-  width: 80%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-form{
-  padding: 30px ;
+form {
   display: flex;
-  border-radius: 10px;
-}
-button {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 .examples{
     font-size: 14px;
